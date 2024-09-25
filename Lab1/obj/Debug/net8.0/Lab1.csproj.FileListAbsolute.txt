@@ -1,0 +1,14 @@
+/Users/sedooj/RiderProjects/Lab1/Lab1/bin/Debug/net8.0/Lab1
+/Users/sedooj/RiderProjects/Lab1/Lab1/bin/Debug/net8.0/Lab1.deps.json
+/Users/sedooj/RiderProjects/Lab1/Lab1/bin/Debug/net8.0/Lab1.runtimeconfig.json
+/Users/sedooj/RiderProjects/Lab1/Lab1/bin/Debug/net8.0/Lab1.dll
+/Users/sedooj/RiderProjects/Lab1/Lab1/bin/Debug/net8.0/Lab1.pdb
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.AssemblyInfoInputs.cache
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.AssemblyInfo.cs
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.csproj.CoreCompileInputs.cache
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.dll
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/refint/Lab1.dll
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.pdb
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.genruntimeconfig.cache
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/ref/Lab1.dll
