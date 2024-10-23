@@ -172,3 +172,4 @@
 /Users/sedooj/RiderProjects/Lab1/Lab1.Tests/obj/Debug/net8.0/Lab1.Tests.pdb
 /Users/sedooj/RiderProjects/Lab1/Lab1.Tests/obj/Debug/net8.0/Lab1.Tests.genruntimeconfig.cache
 /Users/sedooj/RiderProjects/Lab1/Lab1.Tests/obj/Debug/net8.0/ref/Lab1.Tests.dll
+/Users/sedooj/RiderProjects/Lab1/Lab1.Tests/obj/Debug/net8.0/Lab1.Tests.sourcelink.json

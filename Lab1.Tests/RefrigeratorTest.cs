@@ -1,35 +1,23 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Lab1.Tests
+namespace Lab1.Tests;
+
+[TestClass]
+public class RefrigeratorTests
 {
-    [TestClass]
-    public class RefrigeratorTests
+    [TestMethod]
+    public void RefrigeratorBuilder_Build_CreatesRefrigerator()
     {
-        [TestMethod]
-        public void Refrigerator_Constructor_ShouldSetProperties()
-        {
-            string expectedBrand = "TestBrand";
-            float expectedPrice = 499.99f;
-            int expectedVolume = 350;
-            bool expectedHasFreezer = true;
+        var fridge = new RefrigeratorBuilder()
+            .SetBrand("Bosch")
+            .SetPrice(30000)
+            .SetVolume(200)
+            .SetHasFreezer(true)
+            .Build();
 
-            var refrigerator = new Refrigerator(expectedBrand, expectedPrice, expectedVolume, expectedHasFreezer);
-
-            Assert.AreEqual(expectedBrand, refrigerator.Brand);
-            Assert.AreEqual(expectedPrice, refrigerator.Price);
-            Assert.AreEqual(expectedVolume, refrigerator.Volume);
-            Assert.AreEqual(expectedHasFreezer, refrigerator.HasFreezer);
-        }
-
-        [TestMethod]
-        public void Refrigerator_DefaultConstructor_ShouldSetDefaultValues()
-        {
-            var refrigerator = new Refrigerator();
-
-            Assert.AreEqual("", refrigerator.Brand);
-            Assert.AreEqual(0.0f, refrigerator.Price);
-            Assert.AreEqual(100, refrigerator.Volume);
-            Assert.IsFalse(refrigerator.HasFreezer);
-        }
+        Assert.AreEqual("Bosch", fridge.Brand);
+        Assert.AreEqual(30000.0, fridge.Price);
+        Assert.AreEqual(200, fridge.Volume);
+        Assert.IsTrue(fridge.HasFreezer);
     }
 }

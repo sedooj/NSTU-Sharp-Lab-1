@@ -12,3 +12,4 @@
 /Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.pdb
 /Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.genruntimeconfig.cache
 /Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/ref/Lab1.dll
+/Users/sedooj/RiderProjects/Lab1/Lab1/obj/Debug/net8.0/Lab1.sourcelink.json

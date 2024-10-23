@@ -1,41 +1,23 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Lab1;
 
-namespace Lab1.Tests
+namespace Lab1.Tests;
+
+[TestClass]
+public class ApplianceTests
 {
-    [TestClass]
-    public class ApplianceTests
+    [TestMethod]
+    public void Appliance_DefaultConstructor_SetsDefaults()
     {
-        public class TestAppliance : Appliance
-        {
-            public TestAppliance(string brand, float price) : base(brand, price) { }
+        var appliance = new Appliance();
+        Assert.AreEqual("", appliance.Brand);
+        Assert.AreEqual(0.0, appliance.Price);
+    }
 
-            public override void PrintInfo()
-            {
-                Console.WriteLine($"Brand: {Brand}, Price: {Price}");
-            }
-        }
-
-        [TestMethod]
-        public void Appliance_Constructor_ShouldSetProperties()
-        {
-            string expectedBrand = "TestBrand";
-            float expectedPrice = 199.99f;
-
-            var appliance = new TestAppliance(expectedBrand, expectedPrice);
-
-            Assert.AreEqual(expectedBrand, appliance.Brand);
-            Assert.AreEqual(expectedPrice, appliance.Price);
-        }
-
-        [TestMethod]
-        public void Appliance_DefaultConstructor_ShouldSetDefaultValues()
-        {
-            var appliance = new TestAppliance("", 0.0f);
-
-            Assert.AreEqual("", appliance.Brand);
-            Assert.AreEqual(0.0f, appliance.Price);
-        }
+    [TestMethod]
+    public void Appliance_ParameterizedConstructor_SetsValues()
+    {
+        var appliance = new Appliance("Samsung", 15000.0);
+        Assert.AreEqual("Samsung", appliance.Brand);
+        Assert.AreEqual(15000.0, appliance.Price);
     }
 }
